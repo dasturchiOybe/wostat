@@ -1,0 +1,321 @@
+  @font-face {
+    font-family: Lexend Deca;
+    src: url(Fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background: #c9c9e8e5;
+  }
+
+  section{
+    margin-top: 100px;
+  }
+
+  a{
+    color: #F5F5F5;
+  }
+
+  header{
+     width: 1440px;
+     margin: 0 auto;
+     background-image: url(images/christina-wocintechchat-com-L85a1k-XqH8-unsplash\ 1.png);
+     background-repeat: no-repeat;
+     height: 715px;
+     padding-top: 40px;
+  }
+  .container{
+    width: 1100px;
+    margin: 0 auto;
+  }
+  .containerTop{
+    width: 1440px;
+    margin: 0 auto;
+  }
+  nav{
+    width: 1156px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+  }
+  ul li{
+    list-style: none;
+  }
+  ul li a{
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  ul button{
+    width: 132px;
+    height: 47px;
+    padding: 10px, 44px, 10px, 44px;
+    border-radius: 4px;
+    margin-left: 50px;
+    gap: 8px;
+    background: #5468E7;
+    border: transparent;
+    font-family: Lexend Deca;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F5F5F5;
+  }
+  nav .logo{
+    width: 221px;
+    height: 52px;
+    color: #F5F5F5;
+    font-family: Lexend Deca;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    font-family: Lexend Deca;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+  .logo span{
+    color: #5468E7;
+  }
+  .headerSection{
+    width: 573px;
+    padding-top: 137px;
+    /* left: 134px; */
+    gap: 56px;
+    align-items: start;
+  }
+  .headerSection h1{
+    font-family: Lexend Deca;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F5F5F5;
+  }
+  .headerSection p{
+    padding-top: 16px;
+    width: 387px;
+    color: #F5F5F5;
+    font-family: Lexend Deca;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .discove {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 90px;
+    /* gap: 51px; */
+    justify-content: space-between;
+    align-items: center;
+  }
+  .discove .left {
+    width: 450px;
+  }
+  .discove .left a{
+    color: #5468E7;
+  }
+  .discove .left .a{
+    color: #5468E7;
+  }
+  .discove .left h2{
+    font-family: Lexend Deca;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;    
+  }
+  .discove .left p{
+    padding-top: 24px;
+    font-family: Lexend Deca;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #232340E5;
+  }
+  .wostat {
+    font-family: Lexend Deca;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #232340E5;
+  }
+  .discove .rigth {
+    width: 784px;
+    height: 654px;
+  }
+  .discove .rigth img{
+    width: 100%;
+  }
+  .team .rigth{
+    width: 575px;
+    height: 565px;    
+  }
+  .team .left {
+    width: 455px;
+    margin-right: 135px;
+  }
+  .over h2{
+    font-family: Lexend Deca;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #232340;    
+    width: 498px;
+    margin: 0 auto;
+    height: 64px;    
+  }
+  .group {
+    display: flex;
+    width: 1170px ;
+    padding-top: 60px;
+    margin: 0 auto;
+    gap: 35px;    
+  }
+  .directions{
+    width: 1171px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .directions h2 {
+    font-family: Lexend Deca;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;  
+    width: 720px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+  }
+  .boxgroup{
+    width: 1171px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;    
+  }
+  .box {
+    display: flex;
+    width: 377px;
+    gap: 10px;
+    padding: 20px ;
+    background: #FFFFFF;
+  }
+  .box h3{
+    font-family: Lexend Deca;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000000;    
+  }
+  .box p{
+    font-family: Lexend Deca;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+  }
+  .box img {
+    width: 50px;
+    height: 50px;
+  }
+  .textbox{
+    display: flex;
+    width: 279px;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .cost h3 {
+    font-family: Lexend Deca;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #232340;    
+    width: 641px;
+    margin: 0 auto;
+  }
+  .groupcard {
+    display: flex;
+    width: 1060px;
+    margin: 0 auto;
+    gap: 50px;
+  }
+  .groupcard .card{
+    width: 320px;
+    margin: 0 auto;
+    padding-left: 38px;
+    padding-right: 38px;
+    text-align: center;
+  }
+  .groupcard .card .dolor{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .groupcard .dolor h2{
+    font-family: Lexend Deca;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1px;
+    text-align: center;  
+    color: #1E0E62;  
+  }
+  .groupcard .dolor p{
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;    
+  }
+  .groupcard .money p {
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: center;  
+    color: #1E0E62;  
+  }
+
+
+  
